@@ -178,7 +178,7 @@ int main(){
         keep_window_open();
         return 0;
     }
-    catch(const std::exception& e)
+    catch(exception& e)
     {
         cerr << "Error: " << e.what() << '\n';
         return 1;
